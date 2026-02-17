@@ -34,6 +34,7 @@ with open(archivo_csv, newline="", encoding="utf-8") as archivo:
         palabra = fila["palabra"].strip()
         if palabra:
             palabras.append(palabra)
+            
 
 # -----------------------------
 # Ventana
